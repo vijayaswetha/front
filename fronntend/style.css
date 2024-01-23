@@ -1,0 +1,285 @@
+ *
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+body
+
+{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container
+{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(222, 222, 171),lightpink); 
+
+}
+
+nav
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    background-color: rgb(243, 104, 128);
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+     padding: 30px ;
+}
+.img1
+{
+    height: 30px;
+    width: 30px;
+}
+.sec
+{
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    margin: 40px 0px;
+    font-size: 40px;
+}
+.para
+{
+    margin: 40px 0px;
+}
+.sec1
+{
+    padding: 30px;
+    font-size: 18px;
+    width: 50vw;
+}
+.sec2
+{
+    width: 50vw;
+
+    padding: 10px;
+}
+.imag
+{
+    height: 100vh;
+}
+.btn
+{
+    width: 30%;
+    margin: 20px 0px;
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: rgb(243, 104, 128);
+}
+
+
+
+.page2
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+background-image: linear-gradient(to right,rgb(235, 235, 177),lightpink,rgb(196, 140, 149)); 
+
+}
+.pg1
+{
+    display: flex;
+    flex-direction:row;
+    margin: 150px 50px;
+}
+.gal1
+{
+display: flex;
+flex-direction:column;
+
+}
+.gal2
+{
+display: flex;
+}
+.img2
+{
+    height:50vh;
+    padding:0px;
+    width: 300px;
+    margin: 2.5px;
+}
+
+.img3
+{
+    width: 300px;
+    padding:0px;
+margin: 5px;
+height: 100vh;
+}
+.pg2{
+    
+display: flex;
+flex-direction: column;
+    background-color: rgb(243, 104, 128);
+  width: 400px;
+  padding: 20px;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+
+
+}
+.btn2
+{
+    background:none;
+    border: none;
+    margin: 20px 0px;
+    text-align: left;
+}
+.arr
+{
+    height: 13px;
+    padding-top: 10px;
+}
+@media (max-width:768px)
+{
+    .container
+{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-image: linear-gradient(to right,rgb(222, 222, 171),lightpink); 
+
+}
+
+nav
+{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 40px;
+    background-color: rgb(243, 104, 128);
+}
+nav a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+     padding: 30px ;
+}
+.img1
+{
+    height: 30px;
+    width: 30px;
+}
+.sec
+{
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    margin: 40px 0px;
+    font-size: 30px;
+}
+.para
+{
+    font-size: 16px;
+    margin: 40px 0px;
+}
+.sec1
+{
+    padding: 30px;
+    font-size: 18px;
+    width: 50vw;
+}
+.sec2
+{
+    width: 50vw;
+    padding: 10px;
+}
+.imag
+{
+
+    height: 100vh;
+}
+.btn
+{
+    width: 30%;
+    margin: 20px 0px;
+    color: white;
+    border: none;
+    padding: 10px;
+    background-color: rgb(243, 104, 128);
+}
+
+.page2
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    background-image: linear-gradient(to right,rgb(235, 235, 177),lightpink,rgb(196, 140, 149)); 
+
+}
+.pg1
+{
+    display: flex;
+    flex-direction:row;
+    margin: 150px 50px;
+}
+.gal1
+{
+display: flex;
+flex-direction:column;
+}
+
+.gal2
+{
+display: flex;
+}
+
+.img2
+{
+    height:50vh;
+    padding:0px;
+    width: 300px;
+    margin: 2.5px;
+}
+.img3
+{
+    width: 300px;
+    padding:0px;
+    margin: 5px;
+    height: 100vh;
+}
+
+.pg2{
+    
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 104, 128);
+  width: 400px;
+  padding: 20px;
+  height: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.btn2
+{
+    background:none;
+    border: none;
+    margin: 20px 0px;
+    text-align: left;
+}
+
+.arr
+{
+    height: 20px;
+    padding-top: 10px;
+}
+.head1
+{
+  font-size: 30px;
+}
+}
